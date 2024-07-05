@@ -11,6 +11,7 @@ body {
   padding: 15px;
   display: flex;
   color: white;
+  justify-content: space-between;
 }
 .nav-items {
   display: flex;
