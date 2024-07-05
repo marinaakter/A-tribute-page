@@ -8,22 +8,39 @@ body {
 }
 .header {
   background-color: #d9afd9;
-  padding: 10px;
+  padding: 15px;
   display: flex;
 }
 .nav-items {
   display: flex;
   list-style: none;
+  font-size: 18px;
 }
-.nav-items a{
-    text-decoration: none;
-    margin-right: 20px;
+.nav-items a {
+  text-decoration: none;
+  margin-right: 20px;
 }
-img{
-display: block;
-margin-left: auto;
-margin-right: auto;
-height: 400px;
-width: 500px;
-padding: 20px 0;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 500px;
+  padding: 20px 0;
+}
+.container {
+  /* container background start */
+  background: rgba(255, 255, 255, 0.37);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(16, 199, 227, 0.721);
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px);
+  border: 1px solid rgba(255, 255, 255, 0.31);
+  /* container background end */
+  margin: 20px;
+  padding: 20px;
+}
+.container-title {
+  text-align: center;
+  padding: 20px;
 }
